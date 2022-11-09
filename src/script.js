@@ -10,4 +10,21 @@ array[0].addEventListener('click',()=>{
     console.log(a+b)
 })
 
-array[1].addEventListener()
+array[1].addEventListener('click',()=>{
+    console.log(a-b)
+})
+
+array[2].addEventListener('click',()=>{
+    console.log(a*b)
+})
+
+array[3].addEventListener('click',()=>{
+    console.log(a/b)
+})
+
+array[4].addEventListener('click',()=>{
+    for(var i = 0; i == b ; i++){
+        a = a*a
+    }
+    console.log(a)
+})
