@@ -8,6 +8,8 @@ array[0].addEventListener('click',()=>{
     var b = document.getElementById('LiczbaB').value;
     var c = Number(a) + Number(b)
     wynik.innerHTML = `Wynik to ${c}`
+    // console.log(c)
+
 })
 
 array[1].addEventListener('click',()=>{
@@ -23,6 +25,8 @@ array[2].addEventListener('click',()=>{
     var b = document.getElementById('LiczbaB').value;
     var c = a*b
     wynik.innerHTML = `Wynik to ${c}`
+  // console.log(c)
+
 })
 
 array[3].addEventListener('click',()=>{
@@ -30,6 +34,8 @@ array[3].addEventListener('click',()=>{
     var b = document.getElementById('LiczbaB').value;
     var c = a/b
     wynik.innerHTML = `Wynik to ${c}`
+    // console.log(c)
+
 })
 
 array[4].addEventListener('click',()=>{
@@ -37,5 +43,7 @@ array[4].addEventListener('click',()=>{
     var b = document.getElementById('LiczbaB').value;
     var c = Math.pow(a,b)
     wynik.innerHTML = `Wynik to ${c}`
+    // console.log(c)
+
 })
 
