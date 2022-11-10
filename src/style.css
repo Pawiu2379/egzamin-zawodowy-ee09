@@ -1,0 +1,56 @@
+*{
+    font-family: Tahoma, sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+#banerHead{
+    display: grid;
+    grid-template-columns: 17% 49% 17% 17%;
+    background-color: #983713 ;
+    height: 100px;
+    text-align: center;
+}
+
+.baner img{
+    float: left;
+    height: 100px;    
+}
+
+main{
+    background-color: #FF7F50;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#lewy h3{
+    margin: 0px;
+    padding-left: 0px;
+    padding: 10px;
+}
+
+#lewy img{
+    height: 500px;
+    padding-left: 0px;
+}
+
+footer p{
+    background-color: #983713 ;
+    margin: 0px;
+    text-align: right;
+}
+
+button{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    background-color: #D3D3D3;
+    color: #2f2f2f;
+}
+
+input{
+    color:#FF7F50;
+}
